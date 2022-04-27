@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>News Project 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="row one-news">
+            <div class="col-md-12">
+            <nav class="navbar navbar-fixed-top row" role="navigation">
+                <div class="bg-success navbar">  
+                    <div class="navbar-header col-md-6 col-xs-6 text-right">
+                        <p id="main-item">Hot News</p>
+                    </div>                  
+                    <div class="navbar-header col-md-6 col-xs-6" style="height: 1px;">                                         
+                            <span class="glyphicon glyphicon-search" id="search-icon"></span> 
+                    </div>
+                </div>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <div id="loading" >
+        <img src="./images/loader-64x/Fidget-spinner.gif" alt="Loading..."/>
+    </div>
+
+    <div id="searchform" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form>
+                <h2>Search for...</h2>
+                    
+                <input type="text" name="username" id="keys" placeholder="Your keys word">
+                    <button type="button" id="btnsearch">Search</button>
+                <div id="lang-search">
+                    <span>Language: </span>  
+                    <select name="language" id="language">
+                        <option value="en">English</option>
+                        <option value="zh">Chinese</option>
+                        <option value="ja">Japanese</option>
+                    </select>
+                </div>      
+            </form>
+        </div>
+    </div>
+    
+    <div id="allnews">
+       
+    </div>
+    
+
+
+
+   
+
+    
+
+
+
+
+</body>
+</html>
